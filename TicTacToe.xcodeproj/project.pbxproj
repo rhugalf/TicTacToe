@@ -14,6 +14,7 @@
 		F0017D1519EA629F004690ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0017D1419EA629F004690ED /* Images.xcassets */; };
 		F0017D1819EA629F004690ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0017D1619EA629F004690ED /* LaunchScreen.xib */; };
 		F0017D2419EA629F004690ED /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0017D2319EA629F004690ED /* TicTacToeTests.m */; };
+		F0017D2F19EB4CFD004690ED /* UITicTacLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0017D2E19EB4CFD004690ED /* UITicTacLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F0017D1D19EA629F004690ED /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0017D2219EA629F004690ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0017D2319EA629F004690ED /* TicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
+		F0017D2D19EB4CFD004690ED /* UITicTacLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITicTacLabel.h; sourceTree = "<group>"; };
+		F0017D2E19EB4CFD004690ED /* UITicTacLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITicTacLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +91,9 @@
 				F0017D1119EA629F004690ED /* Main.storyboard */,
 				F0017D1419EA629F004690ED /* Images.xcassets */,
 				F0017D1619EA629F004690ED /* LaunchScreen.xib */,
+				F0017D2D19EB4CFD004690ED /* UITicTacLabel.h */,
 				F0017D0719EA629F004690ED /* Supporting Files */,
+				F0017D2E19EB4CFD004690ED /* UITicTacLabel.m */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0017D2F19EB4CFD004690ED /* UITicTacLabel.m in Sources */,
 				F0017D1019EA629F004690ED /* ViewController.m in Sources */,
 				F0017D0D19EA629F004690ED /* AppDelegate.m in Sources */,
 				F0017D0A19EA629F004690ED /* main.m in Sources */,

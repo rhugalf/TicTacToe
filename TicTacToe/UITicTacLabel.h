@@ -10,4 +10,6 @@
 
 @interface UITicTacLabel : UILabel
 
+@property NSString *marca;
+
 @end
